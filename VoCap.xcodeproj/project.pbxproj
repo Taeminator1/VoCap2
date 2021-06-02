@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		345281E02667AE050019D15A /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345281DE2667AE050019D15A /* Note+CoreDataClass.swift */; };
+		345281E12667AE050019D15A /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345281DF2667AE050019D15A /* Note+CoreDataProperties.swift */; };
 		348589FF26663B180078F503 /* VoCapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348589FE26663B180078F503 /* VoCapApp.swift */; };
 		34858A0126663B180078F503 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34858A0026663B180078F503 /* ContentView.swift */; };
 		34858A0326663B190078F503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34858A0226663B190078F503 /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		345281DE2667AE050019D15A /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		345281DF2667AE050019D15A /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		348589FB26663B180078F503 /* VoCap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoCap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		348589FE26663B180078F503 /* VoCapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoCapApp.swift; sourceTree = "<group>"; };
 		34858A0026663B180078F503 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 		348589F226663B180078F503 = {
 			isa = PBXGroup;
 			children = (
+				345281DE2667AE050019D15A /* Note+CoreDataClass.swift */,
+				345281DF2667AE050019D15A /* Note+CoreDataProperties.swift */,
 				348589FD26663B180078F503 /* VoCap */,
 				34858A1426663B1A0078F503 /* VoCapTests */,
 				34858A1F26663B1A0078F503 /* VoCapUITests */,
@@ -267,8 +273,10 @@
 			files = (
 				34858A0826663B190078F503 /* Persistence.swift in Sources */,
 				34858A0126663B180078F503 /* ContentView.swift in Sources */,
+				345281E02667AE050019D15A /* Note+CoreDataClass.swift in Sources */,
 				348589FF26663B180078F503 /* VoCapApp.swift in Sources */,
 				34858A0B26663B190078F503 /* VoCap.xcdatamodeld in Sources */,
+				345281E12667AE050019D15A /* Note+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
