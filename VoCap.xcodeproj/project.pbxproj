@@ -9,14 +9,17 @@
 /* Begin PBXBuildFile section */
 		345281E02667AE050019D15A /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345281DE2667AE050019D15A /* Note+CoreDataClass.swift */; };
 		345281E12667AE050019D15A /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345281DF2667AE050019D15A /* Note+CoreDataProperties.swift */; };
+		345281E62667AF620019D15A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345281E52667AF620019D15A /* HomeView.swift */; };
 		348589FF26663B180078F503 /* VoCapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348589FE26663B180078F503 /* VoCapApp.swift */; };
-		34858A0126663B180078F503 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34858A0026663B180078F503 /* ContentView.swift */; };
 		34858A0326663B190078F503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34858A0226663B190078F503 /* Assets.xcassets */; };
 		34858A0626663B190078F503 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34858A0526663B190078F503 /* Preview Assets.xcassets */; };
 		34858A0826663B190078F503 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34858A0726663B190078F503 /* Persistence.swift */; };
 		34858A0B26663B190078F503 /* VoCap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34858A0926663B190078F503 /* VoCap.xcdatamodeld */; };
 		34858A1626663B1A0078F503 /* VoCapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34858A1526663B1A0078F503 /* VoCapTests.swift */; };
 		34858A2126663B1A0078F503 /* VoCapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34858A2026663B1A0078F503 /* VoCapUITests.swift */; };
+		34E063BF266E2E0D00C7B85F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E063BE266E2E0D00C7B85F /* SettingsView.swift */; };
+		34E063E9266E322E00C7B85F /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E063E8266E322E00C7B85F /* NoteDetailView.swift */; };
+		34E063EE266E323900C7B85F /* NoteModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E063ED266E323900C7B85F /* NoteModifierView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +42,9 @@
 /* Begin PBXFileReference section */
 		345281DE2667AE050019D15A /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
 		345281DF2667AE050019D15A /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		345281E52667AF620019D15A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		348589FB26663B180078F503 /* VoCap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoCap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		348589FE26663B180078F503 /* VoCapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoCapApp.swift; sourceTree = "<group>"; };
-		34858A0026663B180078F503 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34858A0226663B190078F503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34858A0526663B190078F503 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		34858A0726663B190078F503 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -53,6 +56,9 @@
 		34858A1C26663B1A0078F503 /* VoCapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoCapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34858A2026663B1A0078F503 /* VoCapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoCapUITests.swift; sourceTree = "<group>"; };
 		34858A2226663B1A0078F503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E063BE266E2E0D00C7B85F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		34E063E8266E322E00C7B85F /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
+		34E063ED266E323900C7B85F /* NoteModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModifierView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,7 @@
 		348589F226663B180078F503 = {
 			isa = PBXGroup;
 			children = (
-				345281DE2667AE050019D15A /* Note+CoreDataClass.swift */,
-				345281DF2667AE050019D15A /* Note+CoreDataProperties.swift */,
+				34E063B4266E2CEA00C7B85F /* Core Data */,
 				348589FD26663B180078F503 /* VoCap */,
 				34858A1426663B1A0078F503 /* VoCapTests */,
 				34858A1F26663B1A0078F503 /* VoCapUITests */,
@@ -106,11 +111,11 @@
 			isa = PBXGroup;
 			children = (
 				348589FE26663B180078F503 /* VoCapApp.swift */,
-				34858A0026663B180078F503 /* ContentView.swift */,
-				34858A0226663B190078F503 /* Assets.xcassets */,
 				34858A0726663B190078F503 /* Persistence.swift */,
-				34858A0C26663B190078F503 /* Info.plist */,
 				34858A0926663B190078F503 /* VoCap.xcdatamodeld */,
+				34858A0C26663B190078F503 /* Info.plist */,
+				34E063BD266E2DF900C7B85F /* User Interfaces */,
+				34E063B9266E2D6000C7B85F /* Resources */,
 				34858A0426663B190078F503 /* Preview Content */,
 			);
 			path = VoCap;
@@ -140,6 +145,58 @@
 				34858A2226663B1A0078F503 /* Info.plist */,
 			);
 			path = VoCapUITests;
+			sourceTree = "<group>";
+		};
+		34E063B4266E2CEA00C7B85F /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				345281DE2667AE050019D15A /* Note+CoreDataClass.swift */,
+				345281DF2667AE050019D15A /* Note+CoreDataProperties.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		34E063B9266E2D6000C7B85F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34858A0226663B190078F503 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		34E063BD266E2DF900C7B85F /* User Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				345281E52667AF620019D15A /* HomeView.swift */,
+				34E063E7266E31E500C7B85F /* NoteModifierView */,
+				34E063E6266E319100C7B85F /* NoteDetailView */,
+				34E063D1266E304200C7B85F /* Settings */,
+			);
+			path = "User Interfaces";
+			sourceTree = "<group>";
+		};
+		34E063D1266E304200C7B85F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				34E063BE266E2E0D00C7B85F /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		34E063E6266E319100C7B85F /* NoteDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				34E063E8266E322E00C7B85F /* NoteDetailView.swift */,
+			);
+			path = NoteDetailView;
+			sourceTree = "<group>";
+		};
+		34E063E7266E31E500C7B85F /* NoteModifierView */ = {
+			isa = PBXGroup;
+			children = (
+				34E063ED266E323900C7B85F /* NoteModifierView.swift */,
+			);
+			path = NoteModifierView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,11 +329,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				34858A0826663B190078F503 /* Persistence.swift in Sources */,
-				34858A0126663B180078F503 /* ContentView.swift in Sources */,
 				345281E02667AE050019D15A /* Note+CoreDataClass.swift in Sources */,
 				348589FF26663B180078F503 /* VoCapApp.swift in Sources */,
+				34E063E9266E322E00C7B85F /* NoteDetailView.swift in Sources */,
 				34858A0B26663B190078F503 /* VoCap.xcdatamodeld in Sources */,
+				34E063BF266E2E0D00C7B85F /* SettingsView.swift in Sources */,
 				345281E12667AE050019D15A /* Note+CoreDataProperties.swift in Sources */,
+				34E063EE266E323900C7B85F /* NoteModifierView.swift in Sources */,
+				345281E62667AF620019D15A /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
